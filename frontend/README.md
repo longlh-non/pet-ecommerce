@@ -76,3 +76,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - style div.rating, span and last span
     - Create Product component
     - Use Rating component
+
+8. Build Product screen
+    1. Install react-router-dom
+    2. Use BrowserRouter and Rout for Home Screen
+    3. Create HomeScreen.js
+    4. Add product list code there
+    5. Create ProductScreen.js
+    6. Add new Route from product details to App.js
+    7. Create 3 collumns for product image, info and action
