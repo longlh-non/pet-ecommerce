@@ -1,5 +1,27 @@
 {
   "dependencies": {
-    "create-react-app": "^4.0.3"
+    "create-react-app": "^4.0.3",
+    "express": "^4.17.1"
+  },
+  "name": "ecommerce-pet",
+  "type": "module",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longlh-non/pet-ecommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longlh-non/pet-ecommerce/issues"
+  },
+  "homepage": "https://github.com/longlh-non/pet-ecommerce#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
