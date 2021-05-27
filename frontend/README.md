@@ -136,3 +136,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     2. add reducer to store.js
     3. user action in ProductScreen.js
     4. add /api/product/:id to backend api
+
+14. Handle Add To Cart Button
+    1. Handle Add To Cart in ProductScreen.js
+    2. create CartScreen.js
