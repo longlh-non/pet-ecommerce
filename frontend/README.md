@@ -111,3 +111,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     8. create Loading component
     9. create Message Box component
     10. use them in HomeScreen
+
+11. Install ESlint for Code Linting
+    1. Install VSCode eslint extension
+    2. npm install -D eslint
+    3. run ./node_modules/.bin/eslint --intit
+    4. create ./frontend/.env
+    5. Add SKIP_PREFLIGHT_CHECK=true
+
+12. Add Redux to Home Screen
+    1. npm install redux react-redux
+    2. Create store.js
+    3. initState = {products: []}
+    4. reducer == =(state, action) ==> switch :PAD_PRODUCTS: {products: action.payload}
+    5. export default createStore(reducer, initState)
+    6. Edit HomeScreen.js
+    7. shopName = useSelector(state=> state.products)
+    8. const dispatch = useDispatch()
+    . useEffect(() => dispatch({type: LOAD_PRODUCTS, payload: data}))
+    10. Add store to index.js
