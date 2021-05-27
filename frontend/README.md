@@ -130,3 +130,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     8. const dispatch = useDispatch()
     . useEffect(() => dispatch({type: LOAD_PRODUCTS, payload: data}))
     10. Add store to index.js
+
+13. Add Redux to Product Screen
+    1. create product details constants, actions and reducers
+    2. add reducer to store.js
+    3. user action in ProductScreen.js
+    4. add /api/product/:id to backend api
