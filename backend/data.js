@@ -17,7 +17,6 @@ const data = {
     ],
     products: [
         {
-            _id: '1',
             name: 'Product 1',
             category: 'Thuc pham chuc nang',
             image: '/images/product-1.jpg',
@@ -29,8 +28,7 @@ const data = {
             description: 'Russian products',
         },
         {
-            _id: '2',
-            name: 'Product 1',
+            name: 'Product 2',
             category: 'Thuc pham chuc nang',
             image: '/images/product-1.jpg',
             price: 330,
@@ -41,8 +39,7 @@ const data = {
             description: 'Russian products',
         },
         {
-            _id: '3',
-            name: 'Product 1',
+            name: 'Product 3',
             category: 'Thuc pham chuc nang',
             image: '/images/product-1.jpg',
             price: 330,
@@ -53,8 +50,7 @@ const data = {
             description: 'Russian products',
         },
         {
-            _id: '4',
-            name: 'Product 1',
+            name: 'Product 4',
             category: 'Thuc pham chuc nang',
             image: '/images/product-1.jpg',
             price: 330,
@@ -65,8 +61,7 @@ const data = {
             description: 'Russian products',
         },
         {
-            _id: '5',
-            name: 'Product 1',
+            name: 'Product 5',
             category: 'Thuc pham chuc nang',
             image: '/images/product-1.jpg',
             price: 330,
