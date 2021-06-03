@@ -1,7 +1,10 @@
 {
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "create-react-app": "^4.0.3",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongoose": "^5.12.12"
   },
   "name": "ecommerce-pet",
   "type": "module",
