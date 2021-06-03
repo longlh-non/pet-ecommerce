@@ -115,3 +115,9 @@
     5. install .env 
     6. return token and data 
     7. test it using postman 
+
+21. Design Signin Screen 
+    1. Create Signin Screen 
+    2. Render email and password fields
+    3. create sign in constants, actions and reducers 
+    4. update Header based on user login.
