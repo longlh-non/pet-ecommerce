@@ -1,9 +1,14 @@
 import express from 'express';
 import mongoose from 'mongoose';
+import dotenv from 'dotenv';
 import productRouter from './routers/productRouter.js';
 import userRouter from './routers/userRouter.js';
 
+dotenv.config();
+
 const app = express();
+app.use(express.json());
+app.use(express.urlencoded({ extended: true })); //check this
 mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/russiastore', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -17,7 +22,7 @@ app.get('/', (req, res) => {
 })
 
 app.use((err, req, res, next) => {
-    res.status(500).send({message: err.message})
+    res.status(500).send({ message: err.message })
 });
 
 const port = process.env.PORT || 5000;
