@@ -199,6 +199,10 @@ img.large {
   color: #20a020
 }
 
+.loading {
+  display: block !important; 
+}
+
 .danger {
   color: #20a020
 }
